@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek Pawar — Software Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cdot"></div>
+  <div id="cring"></div>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <a href="#" class="nav-brand">Abhishek Pawar</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeBtn" title="Toggle dark mode" aria-label="Toggle dark mode"></button>
+      <a href="mailto:abhishekspawar5147@gmail.com" class="nav-cta">Hire Me</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-badge">Available for internships &amp; full-time roles</div>
+    <h1 class="hero-h1">Not your average<br><em>Software Developer.</em></h1>
+    <p class="hero-p">
+      Get ready to turn your <strong>ideas</strong> into <strong>reality.</strong><br>
+      Final-year B.Tech CSE student from Nagpur, building full-stack web apps and AI-powered tools.
+    </p>
+    <div class="ctas">
+      <a href="#projects" class="btn-fill">View My Work &rarr;</a>
+      <a href="#contact"  class="btn-out">Get in Touch</a>
+    </div>
+    <div class="hero-nums">
+      <div><div class="hn-num">500+</div><div class="hn-lbl">DSA Problems Solved</div></div>
+      <div><div class="hn-num">3+</div><div class="hn-lbl">Projects Shipped</div></div>
+      <div><div class="hn-num">7.79</div><div class="hn-lbl">CGPA</div></div>
+      <div><div class="hn-num">2026</div><div class="hn-lbl">Graduating</div></div>
+    </div>
+  </section>
+
+  <!-- ── VALUE STRIP ── -->
+  <div class="vstrip">
+    <div class="vgrid">
+      <div class="vitem r"><div class="vico">&#9889;</div><div class="vtitle">Fast &amp; Responsive</div><div class="vdesc">Pixel-perfect UIs on every device</div></div>
+      <div class="vitem r"><div class="vico">&#129504;</div><div class="vtitle">AI-Integrated</div><div class="vdesc">LLM-powered intelligent products</div></div>
+      <div class="vitem r"><div class="vico">&#128296;</div><div class="vtitle">Full-Stack Ready</div><div class="vdesc">React &middot; Node.js &middot; MongoDB &middot; Python</div></div>
+      <div class="vitem r"><div class="vico">&#10084;&#65039;</div><div class="vtitle">Built With Care</div><div class="vdesc">Clean code, strong CS fundamentals</div></div>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section class="sec" id="about">
+    <div class="sec-inner">
+      <div class="ey r">About</div>
+      <div class="about-grid">
+        <div class="about-body r">
+          <h2 class="sh" style="margin-bottom:1.5rem">Hi. I'm Abhishek,<br><em>nice to meet you.</em></h2>
+          <p>I am passionate about building excellent software that actually solves problems. I'm a final-year <strong>B.Tech Computer Science</strong> student at Tulsiramji Gaikwad College of Engineering &amp; Technology, Nagpur.</p>
+          <p>I work across the full stack &mdash; <strong>React on the frontend</strong>, Node.js &amp; Express in the backend, MongoDB for data. I've also built AI-driven tools using Python, Groq LLM API and Streamlit.</p>
+          <p>Outside of academics, I've solved <strong>500+ DSA problems</strong> on LeetCode, CodeChef &amp; GFG, completed AICTE-recognized internships, and earned a Silver Medal for academic excellence.</p>
+          <a href="#contact" class="btn-fill" style="font-size:.85rem;margin-top:1.2rem;">Please take a look around &rarr;</a>
+        </div>
+        <div class="r">
+          <div class="skill-grp">
+            <div class="sg-lbl">Frontend</div>
+            <div class="pills">
+              <span class="pill">React.js</span><span class="pill">JavaScript</span><span class="pill">Tailwind CSS</span>
+              <span class="pill">Redux</span><span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">Bootstrap 5</span>
+            </div>
+          </div>
+          <div class="skill-grp">
+            <div class="sg-lbl">Backend &amp; Database</div>
+            <div class="pills">
+              <span class="pill">Node.js</span><span class="pill">Express.js</span><span class="pill">MongoDB</span>
+              <span class="pill">MySQL</span><span class="pill">Django</span><span class="pill">Python</span><span class="pill">Supabase</span>
+            </div>
+          </div>
+          <div class="skill-grp">
+            <div class="sg-lbl">Tools &amp; Fundamentals</div>
+            <div class="pills">
+              <span class="pill">Git / GitHub</span><span class="pill">Docker</span><span class="pill">Postman</span>
+              <span class="pill">C++</span><span class="pill">DSA</span><span class="pill">DBMS</span>
+              <span class="pill">OS &middot; CN</span><span class="pill">Groq LLM API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS (rendered by main.js) ── -->
+  <section class="sec sec-alt" id="projects">
+    <div class="sec-inner">
+      <div class="proj-header">
+        <div>
+          <div class="ey r">Work</div>
+          <h2 class="sh r" style="margin-bottom:0">Case Studies:</h2>
+        </div>
+        <p class="proj-sub r">A selection of projects showcasing my skills across web, full-stack, and AI development.</p>
+      </div>
+      <div class="proj-grid" id="projGrid"></div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section class="sec" id="experience">
+    <div class="sec-inner">
+      <div class="ey r">Experience</div>
+      <h2 class="sh r">Where I've Worked</h2>
+      <div class="exp-list">
+
+        <!-- TechSonix — Current -->
+        <div class="exp-row r">
+          <div>
+            <div class="er-period">Current &middot; On-Site</div>
+            <div class="er-co">TechSonix Solution Infotech</div>
+            <div class="er-loc">Pune, Maharashtra</div>
+          </div>
+          <div>
+            <div class="er-role">
+              Software Engineer Intern
+              <span style="font-family:var(--sans);font-size:0.78rem;color:var(--gold);font-weight:500;background:rgba(200,169,110,0.12);border:1px solid rgba(200,169,110,0.3);border-radius:2rem;padding:0.15rem 0.6rem;margin-left:0.5rem;vertical-align:middle;">Currently Working</span>
+            </div>
+            <ul class="er-ul">
+              <li>Working on MERN stack development &mdash; building and maintaining full-stack web applications using MongoDB, Express.js, React, and Node.js.</li>
+              <li>Collaborating with the engineering team on real-world product features, REST API design, and frontend UI development.</li>
+              <li>Gaining hands-on production experience with modern development workflows, code reviews, and agile practices.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Ekatta Innovators -->
+        <div class="exp-row r">
+          <div>
+            <div class="er-period">Jun 2022 &ndash; Apr 2022</div>
+            <div class="er-co">Ekatta Innovators LLP</div>
+            <div class="er-loc">Chh. Sambhajinagar, MH</div>
+          </div>
+          <div>
+            <div class="er-role">Web Development Intern</div>
+            <ul class="er-ul">
+              <li>Built and maintained responsive web pages with HTML5, CSS3, Bootstrap 5 and JavaScript, ensuring cross-device compatibility.</li>
+              <li>Converted Figma designs into pixel-perfect static websites, consistently delivering on deadline.</li>
+              <li>Applied frontend best practices: layout optimization, responsive grids, and interactive UI elements.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- AICTE AIML -->
+        <div class="exp-row r">
+          <div>
+            <div class="er-period">Virtual &middot; AICTE-Recognized</div>
+            <div class="er-co">EduSkills / AICTE</div>
+            <div class="er-loc">Remote</div>
+          </div>
+          <div>
+            <div class="er-role">AIML Virtual Intern</div>
+            <ul class="er-ul">
+              <li>Completed an AICTE-recognized AI/ML virtual internship through EduSkills Foundation.</li>
+              <li>Worked on machine learning fundamentals, Python projects, and applied AI modules.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section class="sec sec-alt" id="education">
+    <div class="sec-inner">
+      <div class="ey r">Education</div>
+      <h2 class="sh r">Academic Background</h2>
+      <div class="edu-grid">
+        <div class="ec r">
+          <div class="ec-yr">Sep 2023 &ndash; Jul 2026</div>
+          <div class="ec-sch">Tulsiramji Gaikwad College of Engineering &amp; Technology</div>
+          <div class="ec-deg">B.Tech &mdash; Computer Science &amp; Engineering &middot; Nagpur</div>
+          <div class="ec-score">CGPA: 7.79</div>
+        </div>
+        <div class="ec r">
+          <div class="ec-yr">Dec 2020 &ndash; Jul 2023</div>
+          <div class="ec-sch">Government Polytechnic Jalna</div>
+          <div class="ec-deg">Diploma &mdash; Computer Engineering &middot; Jalna, Maharashtra</div>
+          <div class="ec-score">75% &nbsp;&middot;&nbsp; &#129352; Silver Medalist</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ACHIEVEMENTS ── -->
+  <section class="sec" id="achievements">
+    <div class="sec-inner">
+      <div class="ey r">Milestones</div>
+      <h2 class="sh r">Achievements</h2>
+      <div class="ach-grid">
+        <div class="ach-c r"><div class="ach-big">&#129352;</div><div class="ach-t">Silver Medalist</div><div class="ach-d">Academic excellence in Diploma Computer Engineering at GP Jalna.</div></div>
+        <div class="ach-c r"><div class="ach-big">500+</div><div class="ach-t">DSA Problems</div><div class="ach-d">Solved across LeetCode, CodeChef and GeeksforGeeks.</div></div>
+        <div class="ach-c r"><div class="ach-big">AICTE</div><div class="ach-t">AI/ML Internship</div><div class="ach-d">AICTE-recognized virtual internship via EduSkills Foundation.</div></div>
+        <div class="ach-c r"><div class="ach-big">&#128080;</div><div class="ach-t">TechSonix Pune</div><div class="ach-d">On-site Software Engineer Intern &mdash; MERN Stack development.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="sec" id="contact">
+    <div class="sec-inner">
+      <div class="contact-grid">
+        <div class="cl r">
+          <h2>Let's build<br><em>something great.</em></h2>
+          <p>I'm actively looking for internship and full-time Software Developer roles. If you think I'd be a great fit for your team, I'd love to connect.</p>
+          <a href="mailto:abhishekspawar5147@gmail.com" class="cl-email">abhishekspawar5147@gmail.com &nearr;</a>
+        </div>
+        <div class="cr r">
+          <a href="mailto:abhishekspawar5147@gmail.com" class="cc">
+            <div class="cc-ico">&#9993;</div>
+            <div><div class="cc-lbl">Email</div><div class="cc-v">abhishekspawar5147@gmail.com</div></div>
+          </a>
+          <a href="https://linkedin.com/in/abhishekpawar" target="_blank" class="cc">
+            <div class="cc-ico">in</div>
+            <div><div class="cc-lbl">LinkedIn</div><div class="cc-v">linkedin.com/in/abhishekpawar</div></div>
+          </a>
+          <a href="https://github.com/abhishekpawar" target="_blank" class="cc">
+            <div class="cc-ico">gh</div>
+            <div><div class="cc-lbl">GitHub</div><div class="cc-v">github.com/abhishekpawar</div></div>
+          </a>
+          <a href="tel:+919975967778" class="cc">
+            <div class="cc-ico">&#9990;</div>
+            <div><div class="cc-lbl">Phone</div><div class="cc-v">+91 9975967778</div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span>&copy; 2026 Abhishek Pawar &middot; Nagpur, Maharashtra</span>
+    <span>
+      <a href="https://linkedin.com/in/abhishekpawar" target="_blank">LinkedIn</a> &nbsp;&middot;&nbsp;
+      <a href="https://github.com/abhishekpawar" target="_blank">GitHub</a> &nbsp;&middot;&nbsp;
+      <a href="mailto:abhishekspawar5147@gmail.com">Email</a>
+    </span>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+
+</body>
+</html>
