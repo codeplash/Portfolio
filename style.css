@@ -109,12 +109,31 @@ nav {
 }
 [data-theme="dark"] .theme-toggle::after { transform: translateX(20px); }
 
+.nav-resume {
+  background: transparent; color: var(--text);
+  border: 1.5px solid var(--gold); border-radius: 2rem;
+  padding: .45rem 1.1rem; font-size: .8rem; font-weight: 500;
+  text-decoration: none; transition: background .2s, color .2s, border-color .2s;
+  font-family: var(--sans); display: inline-flex; align-items: center; gap: .3rem;
+}
+.nav-resume:hover { background: var(--gold); color: #fff; border-color: var(--gold); }
+
 .nav-cta {
   background: var(--text); color: var(--bg); border-radius: 2rem;
   padding: .5rem 1.3rem; font-size: .875rem; font-weight: 500;
   text-decoration: none; transition: background .2s, color .2s; font-family: var(--sans);
 }
 .nav-cta:hover { background: var(--goldd); color: #fff; }
+
+/* Resume button in hero */
+.btn-resume {
+  background: transparent; color: var(--goldd);
+  border: 1.5px solid var(--goldd); border-radius: 2rem;
+  padding: .78rem 1.75rem; font-size: .9rem; font-weight: 500;
+  text-decoration: none; transition: background .2s, color .2s, transform .15s;
+  display: inline-flex; align-items: center; gap: .4rem;
+}
+.btn-resume:hover { background: var(--goldd); color: #fff; transform: translateY(-2px); }
 
 /* ── HERO ── */
 #hero {
