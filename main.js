@@ -23,7 +23,7 @@ const PROJECTS = [
     title: "SkillYatra",
     desc: "A full-stack EdTech platform where students learn, track progress, and interact with instructors globally — built with the MERN stack and real-time Redux state management.",
     stack: ["React", "Node.js", "Express", "MongoDB", "Redux", "Tailwind"],
-    github: "https://github.com/abhishekpawar",
+    github: "https://github.com/codeplash/SkillYatra-EdTech",
     live: "",   // 👈 e.g. "https://skillyatra.vercel.app"
   },
   {
@@ -33,7 +33,7 @@ const PROJECTS = [
     title: "AI-Powered ATS",
     desc: "An intelligent Applicant Tracking System that parses resumes, scores them against job descriptions, and generates AI-driven improvement feedback using Groq LLM API.",
     stack: ["Python", "Streamlit", "Groq API", "Supabase"],
-    github: "https://github.com/abhishekpawar",
+    github: "https://github.com/codeplash/ATS",
     live: "",   // 👈 e.g. "https://ats.streamlit.app"
   },
   {
@@ -43,7 +43,7 @@ const PROJECTS = [
     title: "Frontend E-Commerce",
     desc: "A modern, responsive shopping cart app with dynamic product browsing, cart management, quantity controls, and real-time totals — powered by Redux for seamless state handling.",
     stack: ["React", "Redux", "Tailwind CSS"],
-    github: "https://github.com/abhishekpawar",
+    github: "https://github.com/codeplash/Ecommerce-Frontend-Website",
     live: "",   // 👈 e.g. "https://shop.vercel.app"
   },
 
@@ -55,7 +55,7 @@ const PROJECTS = [
     title: "Your New Project",
     desc: "Describe what it does in 2–3 sentences.",
     stack: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/abhishekpawar/your-repo",
+    github: "https://github.com/codeplash/SkillYatra-EdTech",
     live: "https://your-project.vercel.app",
   },
   */
